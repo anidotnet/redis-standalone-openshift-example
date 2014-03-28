@@ -16,7 +16,7 @@ Create a Openshift application with a cartridge of your choice.
 Add this upstream repo
 
     cd redis
-    git remote add upstream -m master git://github.com/EddyRespondek/redis-standalone-openshift-example.git
+    git remote add upstream -m master git://github.com/anidotnet/redis-standalone-openshift-example.git
     git pull -s recursive -X theirs upstream master
     
 Then push the repo upstream

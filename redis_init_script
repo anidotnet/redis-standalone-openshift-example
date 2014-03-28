@@ -4,6 +4,7 @@
 # as it does use of the /proc filesystem.
 
 REDISPORT=16000
+OPENSHIFT_RUNTIME_DIR=${OPENSHIFT_REPO_DIR}/../
 EXEC=${OPENSHIFT_RUNTIME_DIR}bin/redis-server
 CLIEXEC=${OPENSHIFT_RUNTIME_DIR}bin/redis-cli
 
